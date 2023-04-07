@@ -1,8 +1,13 @@
 **Technologies Used**
+
 Python
+
 FastAPI (a modern web framework)
+
 MongoDB (a NoSQL database)
+
 Pydantic (for data validation)
+
 Pytest (for testing)
 
 **Installation**
@@ -40,8 +45,11 @@ The app provides the following API endpoints:
 
 
 GET /courses: Get a list of all courses
+
 GET /courses/{course_id}: Get details of a specific course
+
 GET /courses/{course_id}/chapter/{chapter_name}: Get details of a specific chapter of a course
+
 POST /courses/{course_id}/chapter/{chapter_name}/rating: post rating for a specific chapter of a course
 
 **Testing**
